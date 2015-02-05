@@ -1,0 +1,7 @@
+
+<p><%=@parent.errors.full_messages %></p>
+
+<%= form_for @parent do |f| %>
+  <%= f.text_field :parent_name %>
+  <%= f.submit "Cows. So many cows." %>
+<% end %>
